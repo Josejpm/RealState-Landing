@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-navbar">
                     <a href="!#" className="footer-name">Amazing Homes</a>
                     <div className="socials">
-                        <a class="follow-us"href="!#">Follow Us</a>
+                        <a className="follow-us"href="!#">Follow Us</a>
                         <div className="media">
                             <a href="!#"><ion-icon name="logo-facebook"></ion-icon></a>
                             <a href="!#"><ion-icon name="logo-twitter"></ion-icon></a>

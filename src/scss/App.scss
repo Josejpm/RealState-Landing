@@ -8,10 +8,17 @@ html{
     font-family: 'Muli', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .site-container{
     max-width: 1440px;
     margin: 0 auto;    
-    background-color: whitesmoke;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 70px;
+    position: relative;
 }
 
 .main-container{

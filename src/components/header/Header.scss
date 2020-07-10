@@ -1,14 +1,179 @@
 .header-container{
-    background-color: whitesmoke;
+    background-color: white;
     height: 710px;
+    width: 1136px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.house{
+.round-pic{
     width: 794px;
     height: 794px;
-    clip-path: circle(53.0% at 79% 36.5%);
+    background-image:url('../../assets/building.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
     position: absolute;
-    top: 0;
-    left: 46.1% ;
+    top: -83px;
+    left: 837px;
+    z-index: 1;
+}
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+
+    .contact-us{
+        z-index: 10;
+        width: 129px;
+        background-color: white;
+        border: unset;
+        border-radius: 10px;
+        color: #297EFF;
+        font-size: 16px;
+        line-height: 30px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .top-bar{
+        width: 571px;
+        display: flex;
+        justify-content: space-between;
+        .title {  
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            color: #297EFF ;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .links{
+            a{  
+                font-family: 'Muli', sans-serif;
+                text-decoration: none;
+                color: #666666;
+                font-size: 1rem;
+                margin-right: 40px;
+                &:last-of-type{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.message{
+    margin-top:78px;
+    width: 398px;
+    margin-bottom: 66px;
+    h1{ 
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        font-weight: 500;
+        color: #297EFF;
+    }
+    p{
+        margin-top: 22px;
+        margin-bottom: 0;
+        font-family: 'Muli',sans-serif;
+        font-weight: 18px;
+        line-height: 33px;
+        color: #666666;
+    }
+    button{
+        margin-top: 22px;
+        width: 200px;
+        height: 53px;
+        border: unset;
+        border-radius: 10px;
+        background-color: #297EFF;
+        color: white;
+        font-family: 'Muli',sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.search-bar{
+    display: flex;
+        justify-content: space-between;
+    position: relative;
+    margin-left: 5px;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+    height: 155px;
+    border-radius: 15px;
+    box-shadow: -3px 2px 10px 2px rgba(42, 127, 255, 0.15);
+    padding: 53px 32px;
+
+    .search{
+        height: 50px;
+        appearance: none;
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: #666666;
+        font-family: 'Muli',sans-serif;
+    }
+
+    .text{
+        width: 346px;
+        padding-left: 46px;
+    }
+
+    .text-after{
+        width: 346px;
+        height: 50px;
+        position: relative;
+        &::after{
+            content: url(../../assets/pin.svg);
+            position: absolute;
+            top: -230px;
+            left: -230px;
+            transform: scale(0.04);
+        }
+    }
+
+    select{
+        width: 161px;
+        padding-left: 20px;
+        background-color: white;
+    }
+
+    .type{
+        width: 161px;
+        height: 50px;
+        position: relative;
+        &::before{
+            content: url(../../assets/down-arrow.svg);
+            position: absolute;
+            top: -230px;
+            right: -235px;
+            transform: scale(0.04);
+        }
+    }
+
+    .button{
+        width: 161px;
+        background-color: #297EFF;
+        color: white;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    
+
+
+
 
 }

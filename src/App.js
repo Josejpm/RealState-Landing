@@ -5,16 +5,20 @@ import './scss/App.scss';
 import Footer from './components/footer/Footer';
 import AboutUs from './components/about/About-Us';
 import Header from './components/header/Header'
+import Card from './components/utils/card';
 
 
 function App() {
   return (
-    <div className="site-container">
-        <Header/>
-        <AboutUs/>
-        <Footer/>
-    </div>
-  );
+    <Card/>
+  )
 }
 
 export default App;
+
+// <div className="site-container">
+
+{/* <Header/>
+<AboutUs/>
+<Footer/> */}
+// </div>

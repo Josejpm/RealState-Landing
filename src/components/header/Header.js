@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import BlueButton from '../utils/blueButton/BlueButton'
 import "./Header.scss";
 
 const Header = () => {
@@ -27,7 +28,9 @@ const Header = () => {
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout
           </p>
-          <button>Contact Us</button>
+          <BlueButton 
+            text='Contact Us'
+          />
         </div> {/*  Message */}
         
             <form className="search-bar" action="!#">

@@ -1,17 +1,16 @@
 import React from 'react';
 import './Card.scss'
-import Image from '../../assets/bathroom01-small.jpg'
-import user from '../../assets/icons/user.svg'
-import bed from '../../assets/icons/bed.svg'
-import bath from '../../assets/icons/bathroom.svg'
-import area from '../../assets/icons/area.svg'
+import user from '../../../assets/icons/user.svg'
+import bed from '../../../assets/icons/bed.svg'
+import bath from '../../../assets/icons/bathroom.svg'
+import area from '../../../assets/icons/area.svg'
 
 
-const Card = () => {
+const Card = ({pic}) => {
     return ( 
         <div className="card">
             <div className="blue-shadow"></div>
-            <img className="card-image" src={Image} alt="Bath-image"/>
+            <img className="card-image" src={pic} alt="Bath"/>
             <div className="card-body">
                 <div className="card-content">
                     <a href="!#">

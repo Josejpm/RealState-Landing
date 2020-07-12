@@ -1,24 +1,26 @@
-import React,{Fragment} from 'react';
+import React from 'react';
 import './scss/App.scss';
 
 //Components
 import Footer from './components/footer/Footer';
 import AboutUs from './components/about/About-Us';
 import Header from './components/header/Header'
-import Card from './components/utils/card';
+import Properties from './components/properties/Properties';
+
+
 
 
 function App() {
   return (
-    <Card/>
+  <div className="site-container">
+    <Header/>   
+    <AboutUs/>
+    <Properties/>
+    <Footer/>
+  </div>
   )
 }
 
 export default App;
 
-// <div className="site-container">
-
-{/* <Header/>
-<AboutUs/>
-<Footer/> */}
-// </div>
+ 

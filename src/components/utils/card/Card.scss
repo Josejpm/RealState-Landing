@@ -1,7 +1,7 @@
 .card{
     font-family: 'Muli',sans-serif ;
     width: 267px;
-    max-height: 436px;
+    height: 436px;
     background-color: #f6f6f6;
     border-radius: 10px;
     overflow: hidden;
@@ -36,6 +36,9 @@
             line-height: 30px;
             span{
                 margin-left: 5px;
+            }
+            img{
+                display: inline;
             }
         }
         h4{
@@ -76,6 +79,9 @@
                 font-size: 12px;
                 line-height: 30px;
                 color: #666666;
+            }
+            img{
+                display: inline;
             }
             
         }

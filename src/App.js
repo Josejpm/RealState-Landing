@@ -8,6 +8,8 @@ import Header from './components/header/Header'
 import Properties from './components/properties/Properties';
 import Recent from './components/recent/Recent';
 
+import HowItWork from './components/how-it-work/How-it-work';
+
 
 
 
@@ -16,9 +18,10 @@ import Recent from './components/recent/Recent';
 function App() {
   return (
       <div className="site-container">
-        <Header/>   
+        <Header/>
         <AboutUs/>
         <Properties/>
+        <HowItWork/>
         <Recent/>
         <Footer/>
       </div>
@@ -27,5 +30,6 @@ function App() {
 }
 
 export default App;
+
 
  

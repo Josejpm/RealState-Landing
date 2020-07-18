@@ -9,6 +9,8 @@ import Properties from './components/properties/Properties';
 import Recent from './components/recent/Recent';
 
 import HowItWork from './components/how-it-work/How-it-work';
+import Testmonials from './components/testimonials/testimonials';
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
         <Properties/>
         <HowItWork/>
         <Recent/>
+        <Testmonials/>
         <Footer/>
       </div>
 
@@ -30,6 +33,5 @@ function App() {
 }
 
 export default App;
-
 
  

@@ -1,0 +1,49 @@
+.testimonial-container{
+    width: 477px;
+    height: 400px;
+
+    .text-container{
+        padding: 22.2px 63px 0 ;
+        width: 100%;
+        height: 266px;
+        background-color: #297EFF;
+        border: 1px solid #297EFF;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(41, 126, 255, 0.15);
+        
+        p{
+            color: white;
+            font-size: 18px;
+            line-height: 26px;
+            margin-top: 19.2px;
+        }
+
+        img{
+            display: block;
+            margin: 0 auto 19.2px;
+
+        }
+
+        .profile-pic{
+            width: 108px;
+            height: 108px;
+            border-radius: 50%;
+            margin-top: 19px;
+            margin-bottom: 0;
+        }
+    }
+
+    .name{
+        margin-top: 80px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: bold;
+    }
+
+    .position{
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: normal;
+    }
+
+}

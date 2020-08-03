@@ -1,7 +1,8 @@
+@import '../../../scss/variables';
 .box{
     width: 306px;
     height: 254px;
-    border: 1px solid #297EFF;
+    border: 1px solid $blue;
     border-radius: 10px;
     padding: 29px 31px 29px 32px;
 

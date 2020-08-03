@@ -1,3 +1,4 @@
+@import '../../scss/variables';
 .properties-container{
     font-family: 'Muli',sans-serif;
     background-color: white;
@@ -9,7 +10,7 @@
 h2{
     margin: 0;
     margin-bottom: 22px;
-    color: #297EFF;
+    color: $blue;
     font-size:20px ;
     font-weight: bold;
     line-height: 28px;
@@ -18,7 +19,7 @@ h2{
 
 p{
     margin: 0;
-    color: #666666;
+    color: $gray1;
     font-size: 20px;
     line-height: 30px;
     font-weight: bold;

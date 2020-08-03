@@ -5,6 +5,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header>
+      <div className="blue-shadow"></div>
       <div className="round-pic"></div>
       <div className="header-container">
         <div className="header-navbar">
@@ -57,7 +58,7 @@ const Header = () => {
                     <option value="any">Any Price</option>
                     <option value="">100 K to 200 K</option>
                     <option value="">200 K to 400 K</option>
-                    <option value="">More than 400 K </option>
+                    <option value="">+ 400 K </option>
                 </select>
                 </div>
                 <input className="search button" type="submit" value="SEARCH NOW"/>

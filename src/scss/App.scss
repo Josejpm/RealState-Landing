@@ -1,3 +1,5 @@
+@import './variables';
+
 html{
     box-sizing: border-box;
     *,
@@ -20,10 +22,7 @@ body{
     overflow: hidden;
     border-radius: 70px;
     position: relative;
-    
-
 }
-
 
 .main-container{
     max-width: 1136px;

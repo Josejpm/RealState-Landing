@@ -1,3 +1,4 @@
+@import '../../scss/variables';
 .testimonials-main{
     width: 1136px;
     margin: 0 auto;
@@ -10,7 +11,7 @@
         font-size: 20px;
         font-weight: bold;
         line-height: 30px;
-        color: #297EFF;
+        color: $blue;
     }
     .description{
         margin: 0;
@@ -30,6 +31,29 @@
         display: flex;
         justify-content: space-between;
         padding-top: 77px;
+
+        .dotted{
+            position: absolute;
+            background-image: url('../../assets/dottedd.png');
+            background-size: cover;
+            top: 0;
+            left: 265px;
+            width: 66px;
+            height: 91px;
+            +.d2{
+                top:15px ;
+                left: 805px;
+            }
+            +.d3{
+                top:330px ;
+                left: 80px;
+            }
+            +.d4{
+                top:330px ;
+                left: 987px;
+            }
+            
+        }
     
         .testb-container{
             position: absolute;

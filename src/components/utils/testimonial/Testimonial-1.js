@@ -1,9 +1,8 @@
 import React from "react";
-import './testimonial-1.scss'
-import quote1 from '../../../assets/quote1.svg'
-import profile1 from '../../../assets/Profile01.jpg'
+import './testimonial-1.scss';
+import quote1 from '../../../assets/quote1.svg';
 
-const TestimonialA = () => {
+const TestimonialA = ({photo}) => {
   return (
     <div className="testimonial1-container">
       <div className="text1-container">
@@ -12,7 +11,8 @@ const TestimonialA = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy.
         </p>
-         <img className="profile-pic" src={profile1} alt="Profile"/>
+        <div className="blue-shadow"></div>
+        <img className="profile-pic" src={photo} alt="Profile"/>
       </div>
 
       <p className="name" >Kawsar Ahmed</p>

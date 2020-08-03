@@ -12,6 +12,7 @@ const TestimonialB  = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting
                     industry. Lorem Ipsum has been the industry's standard dummy.
                 </p>
+                <div className="blue-shadow"></div>
                 <img className="profile-pic" src={profile} alt="Profile"/>
             </div>
             <p className="name" >Kawsar Ahmed</p>
